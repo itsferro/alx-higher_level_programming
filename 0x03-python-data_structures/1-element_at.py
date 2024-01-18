@@ -7,5 +7,5 @@ def element_at(my_list, idx):
     '''
     my_list_length = len(my_list)
     if idx < 0 or idx >= my_list_length or my_list_length == 0:
-        return none
+        return None
     return my_list[idx]
