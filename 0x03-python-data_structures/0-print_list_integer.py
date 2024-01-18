@@ -6,4 +6,4 @@ def print_list_integer(my_list=[]):
         print the lintegers one integer ber line.
     '''
     for x in my_list:
-        print("{}".format(x))
+        print("{:d}".format(x))
